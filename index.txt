@@ -1,0 +1,244 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Emaan Yaqoob
+Emaan Yaqoob
+Full stack developer
+
+Show Contacts
+
+Email
+imaandev62@gmail.com
+
+Phone
++923175361995
+
+Birthday
+July 29
+
+Location
+Pakistan
+
+# navbar
+
+About
+Resume
+Portfolio
+Blog
+Contact
+
+# about
+
+About me
+
+I’m Imaan, a Full Stack Developer who loves building modern, responsive, and efficient web applications. I enjoy turning ideas into real products using clean code, smooth UI/UX, and reliable backends that work seamlessly across devices.
+
+My skills span both frontend and backend from creating interactive interfaces with React, Flutter, and JavaScript to developing APIs and automation systems with Node.js, Python, and n8n. I’m passionate about learning new technologies and building solutions that make life easier through smart design and automation.
+
+
+## service
+
+What i'm doing
+
+alt = ai icon
+AI Softwares
+Innovative and intelligent AI solutions built to automate workflows and enhance productivity through smart technology.
+
+alt = Web development icon
+Web development
+High-quality development of sites at the professional level.
+
+alt = mobile app icon
+Mobile apps
+Professional development of applications for iOS and Android.
+
+alt = camera icon
+Photography
+I make high-quality photos of any category at a professional level.
+
+
+## testimonials
+
+Testimonials
+
+alt = Daniel lewis
+Daniel lewis
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+alt = Jessica miller
+Jessica miller
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+alt = Emily evans
+Emily evans
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+alt = Henry william
+Henry william
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+
+## clients
+
+Clients
+
+alt = client logo
+
+
+
+# resume
+
+Resume
+
+Education
+
+The Islamia University BWP
+2018 — 2022
+Bacholars of computer science
+
+Experience
+
+Full Stack Developer (Freelance)
+March 2025 — Present
+Building modern, responsive, and scalable full-stack web applications. I specialize in crafting seamless frontend interfaces with React and Flutter, while developing robust backends with Node.js and Python. Focused on automation, integrations, and AI-powered web solutions.
+
+Nextwys: AI Hybrid Application Developer 
+July 2024 — Jan 2025
+Developed hybrid applications combining mobile, web, and AI technologies. Integrated OpenAI and other APIs into production-ready systems, creating intelligent tools for workflow automation and personalized user experiences.
+
+Flutter studio: Mobile application developer
+June 2023 — May 2024
+Designed and developed cross-platform mobile apps using Flutter. Focused on optimizing UI/UX and implementing efficient state management, database handling, and API integrations for real-world use cases.
+
+CAS: Android developer Intern
+2021 — 2022
+Assisted in developing and testing Android applications. Learned core concepts of mobile architecture, debugging, and performance optimization while collaborating with senior developers on live projects.
+
+My skills
+
+Flutter (Mobile & Web)
+90%
+HTML / CSS / JavaScript	/ c++ 
+90%
+React / Next.js	
+65%
+Node.js	
+70%
+Python (Flask, FastAPI, Streamlit)
+75%
+Firebase / MongoDB / SQL	
+90%
+AI Tools & Automation (n8n, OpenAI APIs)	
+75%
+Git / GitHub / CI-CD	
+70%
+
+
+
+# portfolio
+
+Portfolio
+
+All
+Cross platform app
+Applications
+Web development
+
+Select category
+All
+Cross platform app
+Applications
+Web development
+
+alt = finance
+Finance
+Web development
+
+alt = orizon
+Orizon
+Web development
+
+alt = fundo
+Fundo
+Cross platform app
+
+alt = brawlhalla
+Brawlhalla
+Applications
+
+alt = dsm.
+DSM.
+Cross platform app
+
+alt = metaspark
+MetaSpark
+Cross platform app
+
+alt = summary
+Summary
+Web development
+
+alt = task manager
+Task Manager
+Applications
+
+alt = arrival
+Arrival
+Web development
+
+
+
+# blog
+
+Blog
+
+alt = Design conferences in 2022
+Design
+Fab 23, 2022
+Design conferences in 2022
+Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+
+alt = Best fonts every designer
+Design
+Fab 23, 2022
+Best fonts every designer
+Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+
+alt = Design digest #80
+Design
+Fab 23, 2022
+Design digest #80
+Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+
+alt = UI interactions of the week
+Design
+Fab 23, 2022
+UI interactions of the week
+Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+
+alt = The forgotten art of spacing
+Design
+Fab 23, 2022
+The Forgotten Art Of Spacing
+Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+alt = Design digest #79
+Design
+Fab 23, 2022
+Design Digest #79
+Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+
+
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
