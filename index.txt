@@ -12,10 +12,10 @@ Email
 imaandev62@gmail.com
 
 Phone
-+923175361995
++9231000000000
 
 Birthday
-July 29
+.......
 
 Location
 Pakistan
@@ -94,7 +94,6 @@ Resume
 Education
 
 The Islamia University BWP
-2018 — 2022
 Bacholars of computer science
 
 Experience
