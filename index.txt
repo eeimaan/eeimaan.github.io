@@ -154,9 +154,9 @@ alt = finance
 Finance
 Web development
 
-alt = orizon
-Orizon
-Web development
+alt = AI-Story book
+AI-Story book
+Application
 
 alt = fundo
 Fundo
