@@ -1,606 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>eeimaan</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
-          <img src="./assets/images/profile-pic1.png" alt="Emaan Yaqoob" width="80" class="profile-img">
+          <img
+            src="./assets/images/profile-pic1.png"
+            alt="Emaan Yaqoob"
+            width="80"
+            class="profile-img"
+          />
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Emaan Yaqoob">Emaan Yaqoob</h1>
-
           <p class="title">Full Stack Developer</p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
+        <button class="info_more-btn" type="button" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
 
         <ul class="contacts-list">
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:imaandev62@gmail.com" class="contact-link">imaandev62@gmail.com</a>
             </div>
-
           </li>
 
-          <!-- <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+92 3175361995</a>
-            </div>
-
-          </li> -->
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
-              <address>Pakistan </address>
+              <address>Pakistan</address>
             </div>
-
           </li>
-
         </ul>
 
         <div class="separator"></div>
 
         <ul class="social-list">
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/emaanyaqub" 
-               class="social-link" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="LinkedIn"
-               title="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/emaanyaqub"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
+
           <li class="social-item">
-            <a href="https://www.instagram.com/eemaandev" 
-               class="social-link" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="Instagram"
-               title="Instagram">
+            <a
+              href="https://www.instagram.com/eemaandev"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              title="Instagram"
+            >
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
+
           <li class="social-item">
-            <a href="https://www.facebook.com/emaan.yaqub1" 
-               class="social-link" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="Facebook"
-               title="Facebook">
+            <a
+              href="https://www.facebook.com/emaan.yaqub1"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              title="Facebook"
+            >
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
+
           <li class="social-item">
-            <a href="https://github.com/eeimaan" 
-               class="social-link" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="Github"
-               title="Github">
+            <a
+              href="https://github.com/eeimaan"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+              title="Github"
+            >
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-         
-          
-        
-          <!-- <li class="social-item">
-            <a href="https://instagram.com/yourusername" class="social-link" target="_blank">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li> -->
-        
         </ul>
-        
-
       </div>
-
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" type="button" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" type="button" data-nav-link>Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" type="button" data-nav-link>Portfolio</button>
           </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" type="button" data-nav-link>Contact</button>
           </li>
-
         </ul>
-
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
+      <article class="about active" data-page="about">
         <header style="padding-top: 50px;">
           <h2 class="h2 article-title"></h2>
         </header>
-        
 
-        <section class="about-text"> <p> I’m a Full-Stack Developer with 5+ years of experience building fast, scalable, and intelligent digital products. My journey started in mobile development using flutter, where I learned to create clean, reliable apps with strong architecture and seamless user experience. </p> <p> Today, my focus is full-stack engineering powered by AI. I design modern frontends, build secure and scalable backends, integrate complex APIs, and leverage AI models to automate workflows and enhance product intelligence. </p> <p> I love transforming ideas into polished, high performance solutions clean code, smart systems, and experiences that feel effortless. Always learning. Always building. Always aiming higher. </p> </section>
-        
-
-
-        <!--
-          - service
-        -->
+        <section class="about-text">
+          <p>
+            I’m a Full-Stack Developer with 5+ years of experience building fast, scalable, and intelligent digital products.
+            My journey started in mobile development using flutter, where I learned to create clean, reliable apps with strong
+            architecture and seamless user experience.
+          </p>
+          <p>
+            Today, my focus is full-stack engineering powered by AI. I design modern frontends, build secure and scalable
+            backends, integrate complex APIs, and leverage AI models to automate workflows and enhance product intelligence.
+          </p>
+          <p>
+            I love transforming ideas into polished, high performance solutions clean code, smart systems, and experiences
+            that feel effortless. Always learning. Always building. Always aiming higher.
+          </p>
+        </section>
 
         <section class="service">
-
           <h3 class="h3 service-title">What i'm doing</h3>
 
           <ul class="service-list">
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/mobile.png" alt="mobile app icon" width="40">
+                <img src="./assets/images/mobile.png" alt="mobile app icon" width="40" />
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Mobile Apps</h4>
-              
                 <p class="service-item-text">
-                  Designing and developing high-quality, cross-platform mobile applications for iOS and Android with smooth performance and intuitive user experience.
+                  Designing and developing high-quality, cross-platform mobile applications for iOS and Android with smooth
+                  performance and intuitive user experience.
                 </p>
               </div>
-              
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/coding.png
-                " alt="ai icon" width="40">
+                <img src="./assets/images/coding.png" alt="ai icon" width="40" />
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">AI Softwares</h4>
-              
                 <p class="service-item-text">
                   Innovative AI solutions designed to enhance productivity and deliver smart, high-quality results.
                 </p>
               </div>
-              
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/web.png" alt="Web development icon" width="40">
+                <img src="./assets/images/web.png" alt="Web development icon" width="40" />
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Web Development</h4>
-              
                 <p class="service-item-text">
                   Building modern, responsive, and scalable web applications with clean code and professional design standards.
                 </p>
               </div>
-              
             </li>
 
-            
-
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/ai.png" alt="ai icon" width="40">
+                <img src="./assets/images/ai.png" alt="ai icon" width="40" />
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">AI Automation</h4>
-              
                 <p class="service-item-text">
-                  Developing intelligent AI-powered solutions to streamline processes and enhance efficiency with cutting-edge technology.
+                  Developing intelligent AI-powered solutions to streamline processes and enhance efficiency with cutting-edge
+                  technology.
                 </p>
               </div>
-              
-
             </li>
-
           </ul>
-
         </section>
-
-
-<!--
-  - testimonials
--->
-
-<!-- <section class="testimonials">
-
-  <h3 class="h3 testimonials-title">Testimonials</h3> -->
-
-  <!-- <ul class="testimonials-list has-scrollbar">
-
-    <!-- Testimonial 1 -->
-    <!-- <li class="testimonials-item">
-      <div class="content-card" data-testimonials-item>
-
-        <figure class="testimonials-avatar-box">
-          <img src="./assets/images/avatar-1.png" alt="Ahmed Khan" width="60" data-testimonials-avatar>
-        </figure>
-
-        <h4 class="h4 testimonials-item-title" data-testimonials-title>Benjy</h4>
-
-        <div class="testimonials-text" data-testimonials-text>
-          <p>
-            We hired Emaan to build an AI-powered analytics dashboard for our e-commerce business. She handled everything
-            from API integration to front-end visualizations and delivered a system that gives us real-time insights with
-            clean, intuitive UI. Professional, fast, and highly reliable.
-          </p>
-        </div>
-
-      </div>
-    </li> -->
-
-    <!-- Testimonial 2 -->
-    <!-- <li class="testimonials-item">
-      <div class="content-card" data-testimonials-item>
-
-        <figure class="testimonials-avatar-box">
-          <img src="./assets/images/avatar-2.png" alt="Sarah Malik" width="60" data-testimonials-avatar>
-        </figure>
-
-        <h4 class="h4 testimonials-item-title" data-testimonials-title> Elle William </h4>
-
-        <div class="testimonials-text" data-testimonials-text>
-          <p>
-            Emaan developed a cross-platform Flutter app for our health startup with secure login, clean architecture, and
-            smooth performance on both Android and iOS. Her attention to detail and clear communication made the entire
-            process very easy for our non-technical team.
-          </p>
-        </div>
-
-      </div>
-    </li> -->
-
-    <!-- Testimonial 3 -->
-    <!-- <li class="testimonials-item">
-      <div class="content-card" data-testimonials-item>
-
-        <figure class="testimonials-avatar-box">
-          <img src="./assets/images/avatar-3.png" alt="Daniel Lewis" width="60" data-testimonials-avatar>
-        </figure>
-
-        <h4 class="h4 testimonials-item-title" data-testimonials-title>Hiba </h4>
-
-        <div class="testimonials-text" data-testimonials-text>
-          <p>
-            We needed an internal automation tool that combined AI with our existing web systems. Emaan designed and
-            implemented a full-stack solution that cut our manual work by more than half. Her ability to connect AI
-            workflows with real business needs is impressive.
-          </p>
-        </div>
-
-      </div>
-    </li> -->
-
-    <!-- Testimonial 4 -->
-    <!-- <li class="testimonials-item">
-      <div class="content-card" data-testimonials-item>
-
-        <figure class="testimonials-avatar-box">
-          <img src="./assets/images/avatar-4.png" alt="Hiba Williams" width="60" data-testimonials-avatar>
-        </figure>
-
-        <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel Lewis</h4>
-
-        <div class="testimonials-text" data-testimonials-text>
-          <p>
-            From designing the UI to integrating AI-based recommendations, Emaan handled our portfolio website and mobile
-            app end-to-end. The result looks modern, loads fast, and actually helps us convert more users. I would happily
-            work with her again.
-          </p>
-        </div>
-
-      </div>
-    </li>
-
-  </ul> --> -->
-
-<!-- </section> -->
-
-
-<!--
-  - testimonials modal
--->
-
-<!-- <div class="modal-container" data-modal-container>
-
-  <div class="overlay" data-overlay></div>
-
-  <section class="testimonials-modal">
-
-    <button class="modal-close-btn" data-modal-close-btn title="Close modal">
-      <ion-icon name="close-outline"></ion-icon>
-    </button>
-
-    <div class="modal-img-wrapper">
-      <figure class="modal-avatar-box">
-        <img src="./assets/images/avatar-1.png" alt="Ahmed Khan" width="80" data-modal-img>
-      </figure>
-
-      <img src="./assets/images/icon-quote.svg" alt="quote icon">
-    </div>
-
-    <div class="modal-content">
-
-      <h4 class="h3 modal-title" data-modal-title>Ahmed Khan</h4>
-
-      <time datetime="2024-09-12">12 September, 2024</time>
-
-      <div data-modal-text>
-        <p>
-          We hired Emaan to build an AI-powered analytics dashboard for our e-commerce business. She handled everything
-          from API integration to front-end visualizations and delivered a system that gives us real-time insights with
-          clean, intuitive UI. Professional, fast, and highly reliable.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-</div> -->
-
-
-        <!--
-          - clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section> -->
-
       </article>
 
-
-
-
       <article class="resume" data-page="resume">
-
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
-      
-        <!-- Education Section -->
+
         <section class="timeline">
-      
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-      
             <h3 class="h3">Education</h3>
           </div>
-      
+
           <ol class="timeline-list">
-      
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">The Islamia University, Bahawalpur</h4>
-<<<<<<< HEAD
               <span></span>
-=======
-              <span> 3.65/4.00 Grade</span>
->>>>>>> 5ed8486 (Modified code)
-              <p class="timeline-text">
-                Bachelor of Computer Science
-              </p>
+              <p class="timeline-text">Bachelor of Computer Science</p>
             </li>
-      
           </ol>
-      
         </section>
-      
-        <!-- Experience Section -->
+
         <section class="timeline">
-      
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="briefcase-outline"></ion-icon>
             </div>
-      
             <h3 class="h3">Experience</h3>
           </div>
-      
+
           <ol class="timeline-list">
-      
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Full Stack Developer (Freelance)</h4>
               <span>March 2025 — Present</span>
               <p class="timeline-text">
-                Building modern, responsive, and scalable full-stack web applications. Specialize in seamless frontend interfaces using React, Flutter, and Streamlit, and robust backends with Node.js, Python, and MySQL. Focused on AI integrations and delivering professional web solutions.
+                Building modern, high-performance applications for mobile and web, with a strong focus on clean architecture, scalable state management, and polished UI/UX. Experienced in integrating REST/GraphQL APIs, Firebase and SQL/NoSQL backends, and deploying production-ready solutions. Skilled in adding AI-powered features and workflow automations, delivering reliable products that are maintainable, secure, and built for growth.
+
               </p>
             </li>
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Flutter Developer – Nextwys</h4>
               <span>July 2024 — Jan 2025</span>
               <p class="timeline-text">
-                Developed hybrid mobile and web applications with AI features. Integrated OpenAI and other APIs to create intelligent tools for personalized user experiences and productivity enhancements.
+                Developed hybrid mobile and web applications with AI features. Integrated OpenAI and other APIs to create
+                intelligent tools for personalized user experiences and productivity enhancements.
               </p>
             </li>
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Mobile Application Developer – Flutter Studio</h4>
               <span>June 2023 — May 2024</span>
               <p class="timeline-text">
-                Designed and developed cross-platform mobile apps using Flutter, focusing on responsive UI/UX, API integration, state management, and database handling for real-world applications.
+                Designed and developed cross-platform mobile apps using Flutter, focusing on responsive UI/UX, API
+                integration, state management, and database handling for real-world applications.
               </p>
             </li>
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Android Developer Intern – CAS</h4>
               <span>2021 — 2022</span>
               <p class="timeline-text">
-                Assisted in developing and testing Android applications, learning mobile architecture, debugging, and performance optimization under senior developers' guidance.
+                Assisted in developing and testing Android applications, learning mobile architecture, debugging, and
+                performance optimization under senior developers' guidance.
               </p>
             </li>
-      
           </ol>
-      
         </section>
-      
-        <!-- Skills Section -->
+
         <section class="skill">
-      
           <h3 class="h3 skills-title">My Skills</h3>
-      
+
           <ul class="skills-list content-card">
-      
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Flutter (Mobile & Web)</h5>
@@ -610,16 +309,17 @@
                 <div class="skill-progress-fill" style="width: 90%;"></div>
               </div>
             </li>
+
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Python (Flask, FastAPI, Streamlit)</h5>
-                <data value="75">85%</data>
+                <data value="85">85%</data>
               </div>
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
+                <div class="skill-progress-fill" style="width: 85%;"></div>
               </div>
             </li>
-      
+
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Firebase / MongoDB / MySQL</h5>
@@ -629,8 +329,7 @@
                 <div class="skill-progress-fill" style="width: 90%;"></div>
               </div>
             </li>
-           
-      
+
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">React / Next.js</h5>
@@ -640,19 +339,17 @@
                 <div class="skill-progress-fill" style="width: 65%;"></div>
               </div>
             </li>
-      
+
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Node.js</h5>
-                <data value="70">65%</data>
+                <data value="70">70%</data>
               </div>
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
             </li>
-      
-            
-          
+
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">HTML / CSS / JavaScript / C++</h5>
@@ -672,500 +369,241 @@
                 <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
             </li>
-      
+
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Git / GitHub / CI-CD</h5>
-                <data value="70">75%</data>
+                <data value="75">75%</data>
               </div>
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+                <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
             </li>
-      
           </ul>
-      
         </section>
-      
       </article>
-      
-      <!--
-        - #PORTFOLIO
-      -->
 
       <article class="portfolio" data-page="portfolio">
-
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="projects">
-
           <ul class="filter-list">
-
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <!-- <li class="filter-item">
-              <button data-filter-btn>Cross platform app</button>
-            </li> -->
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button class="active" type="button" data-filter-btn>All</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button type="button" data-filter-btn>Applications</button>
             </li>
 
+            <li class="filter-item">
+              <button type="button" data-filter-btn>Web development</button>
+            </li>
           </ul>
 
           <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
+            <button class="filter-select" type="button" data-select>
               <div class="select-value" data-selecct-value>Select category</div>
-
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
-
             </button>
 
             <ul class="select-list">
-
               <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <!-- <li class="select-item">
-                <button data-select-item>Cross platform app</button>
-              </li> -->
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button type="button" data-select-item>All</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button type="button" data-select-item>Applications</button>
               </li>
 
+              <li class="select-item">
+                <button type="button" data-select-item>Web development</button>
+              </li>
             </ul>
-
           </div>
 
           <ul class="project-list">
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-7.png" alt="AI story book" loading="lazy">
+                  <img src="./assets/images/project-7.png" alt="AI story book" loading="lazy" />
                 </figure>
-
                 <h3 class="project-title">AI-Story Book</h3>
-
                 <p class="project-category">Application</p>
-
               </a>
             </li>
-           
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
 
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy" />
                 </figure>
-
                 <h3 class="project-title">Share Ride App</h3>
-
                 <p class="project-category">Application</p>
-
               </a>
             </li>
-           
 
-            <li class="project-item  active" data-filter-item data-category="Cross platform app">
+            <li class="project-item active" data-filter-item data-category="cross platform app">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy" style="height:200px; object-fit:cover; width:100%;">
+                  <img
+                    src="./assets/images/project-3.jpg"
+                    alt="fundo"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover; width: 100%;"
+                  />
                 </figure>
-
                 <h3 class="project-title">Rently</h3>
-
                 <p class="project-category">Cross platform app</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-8.png" alt="safety" loading="lazy">
+                  <img src="./assets/images/project-8.png" alt="safety" loading="lazy" />
                 </figure>
-
                 <h3 class="project-title">Teenage safe drive</h3>
-
                 <p class="project-category">Application</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="https://play.google.com/store/apps/details?id=sparkapps.ai.com.chatspark">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                
-                  <img src="./assets/images/project-1.jpg"
-                       alt="Chat Spark"
-                       loading="lazy"
-                       style="height:200px; object-fit:cover; width:100%;">
+                  <img
+                    src="./assets/images/project-1.jpg"
+                    alt="Chat Spark"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover; width: 100%;"
+                  />
                 </figure>
-                
-
                 <h3 class="project-title">Chat Spark</h3>
-
                 <p class="project-category">Application</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy" />
                 </figure>
-
                 <h3 class="project-title">Gym App</h3>
-
                 <p class="project-category">Application</p>
-
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
 
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-11.png" alt="arrival" loading="lazy"style="height:200px; object-fit:cover; width:100%;">
+                  <img
+                    src="./assets/images/project-11.png"
+                    alt="arrival"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover; width: 100%;"
+                  />
                 </figure>
-
                 <h3 class="project-title">Career Guide</h3>
-
                 <p class="project-category">Web development</p>
-
               </a>
             </li>
-           
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="https://play.google.com/store/apps/details?id=ai.food.recipe.generator&hl=en">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-4.png" alt="match" loading="lazy"style="height:200px; object-fit:cover; width:100%;">
+                  <img
+                    src="./assets/images/project-4.png"
+                    alt="match"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover; width: 100%;"
+                  />
                 </figure>
-
                 <h3 class="project-title">Live football match</h3>
-
                 <p class="project-category">Applications</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy"style="height:200px; object-fit:cover; width:100%;">
+                  <img
+                    src="./assets/images/project-9.png"
+                    alt="arrival"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover; width: 100%;"
+                  />
                 </figure>
-
                 <h3 class="project-title">Fixer Upper</h3>
-
                 <p class="project-category">Web development</p>
-
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
 
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-10.png" alt="arrival" loading="lazy"style="height:200px; object-fit:cover; width:100%;">
+                  <img
+                    src="./assets/images/project-10.png"
+                    alt="arrival"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover; width: 100%;"
+                  />
                 </figure>
-
                 <h3 class="project-title">Language Flash card</h3>
-
                 <p class="project-category">Web development</p>
-
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="Cross platform app">
-              <a href="#">
 
+            <li class="project-item active" data-filter-item data-category="cross platform app">
+              <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-12.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project-12.png" alt="summary" loading="lazy" />
                 </figure>
-
                 <h3 class="project-title">GO Shop</h3>
-
                 <p class="project-category">Cross platform app</p>
-
               </a>
             </li>
-            
-
           </ul>
-
         </section>
-
       </article>
 
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
       <article class="contact" data-page="contact">
-
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
@@ -1177,59 +615,57 @@
               width="100%"
               height="400"
               title="Map of Pakistan"
-              style="border:0;"
+              style="border: 0;"
               allowfullscreen
-              loading="eager">
-            </iframe>
+              loading="eager"
+            ></iframe>
           </figure>
-          
         </section>
 
         <section class="contact-form">
-
           <h3 class="h3 form-title">Contact Form</h3>
 
           <form action="#" class="form" data-form>
-
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input
+                type="text"
+                name="fullname"
+                class="form-input"
+                placeholder="Full name"
+                required
+                data-form-input
+              />
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input
+                type="email"
+                name="email"
+                class="form-input"
+                placeholder="Email address"
+                required
+                data-form-input
+              />
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea
+              name="message"
+              class="form-input"
+              placeholder="Your Message"
+              required
+              data-form-input
+            ></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-
           </form>
-
         </section>
-
       </article>
-
     </div>
-
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
