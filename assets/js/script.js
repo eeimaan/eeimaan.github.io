@@ -169,3 +169,32 @@ if (navigationLinks.length && pages.length) {
     });
   }
 }
+// ======================
+// Theme toggle (Dark/Light)
+// ======================
+const themeToggleBtn = document.querySelector("[data-theme-toggle]");
+const themeIcon = document.querySelector("[data-theme-icon]");
+const THEME_KEY = "theme";
+
+const applyTheme = (theme) => {
+  // theme: "dark" | "light"
+  document.body.classList.toggle("light-theme", theme === "light");
+
+  if (themeIcon) {
+    themeIcon.setAttribute("name", theme === "light" ? "sunny-outline" : "moon-outline");
+  }
+};
+
+if (themeToggleBtn) {
+  // load saved theme
+  const saved = localStorage.getItem(THEME_KEY);
+  const initialTheme = saved === "light" ? "light" : "dark";
+  applyTheme(initialTheme);
+
+  themeToggleBtn.addEventListener("click", () => {
+    const isLight = document.body.classList.contains("light-theme");
+    const nextTheme = isLight ? "dark" : "light";
+    applyTheme(nextTheme);
+    localStorage.setItem(THEME_KEY, nextTheme);
+  });
+}
