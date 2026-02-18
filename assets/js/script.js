@@ -198,3 +198,7 @@ if (themeToggleBtn) {
     localStorage.setItem(THEME_KEY, nextTheme);
   });
 }
+
+document.querySelector('.download-btn').addEventListener('click', function() {
+  window.location.href = './assets/file/resume.pdf'; 
+});
